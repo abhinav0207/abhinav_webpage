@@ -85,14 +85,11 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Hi! My name is Abhinav Jha and I am a mathematician working currently in RWTH Aachen University. Broadly, I work in Numerical Analysis and Scientific Computing.
-            During my PhD, my area of expertise was <b> Stabilization techniques for Convection-Dominated problems</b>. I was also a member of the Berlin Mathematical School <a href="math-berlin.de">(BMS)</a>.
-            During my PostDoc, I switched my area and started working in computational chemistry. Here my area of work is <b> Domain decomposition method for Poisson-Boltzmann equations</b>.
-          </p>
+          <p>Hi! My name is Abhinav Jha and I am a mathematician working currently in RWTH Aachen University. Broadly, I work in Numerical Analysis and Scientific Computing. During my PhD, my area of expertise was <b> Stabilisation techniques for Convection-Dominated problems</b>. During my PostDoc, I swtiched my area and started working in computational chemistry. Here my area of work is <b> Domain decompisition method for Poisson-Boltzmann equations</b>. </p>
         </div>
 
         <div class="row">
-          <div class="col-lg-2" data-aos="fade-right">
+          <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
@@ -111,26 +108,6 @@
                 </ul>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4" data-aos="fade-left">
-                <img src="logo/rwth_acom_en_rgb.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-3" data-aos="fade-left">
-                <img src="logo/fu_logo.png" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-3" data-aos="fade-left">
-                <img src="logo/bms.jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            &nbsp
-            <div class="row">
-              <div class="col-lg-4" data-aos="fade-left">
-                <img src="logo/iit_roorkee.png" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-3" data-aos="fade-left">
-                <img src="logo/stephens.jpg" class="img-fluid" alt="">
-              </div>
-            </div>
           </div>
         </div>
 
@@ -146,11 +123,11 @@
           <p>This is my list of publications. Most of them are available on arXiv, if you need a published version of any of the paper, do not hesitate to contact me.</p>
         </div>
 
-       <li> Abhinav Jha, Ondrej Partl, Naveed Ahmed, Dmitri Kuzmin: <em>An Assessment of Solvers for Algebraically Stabilized Discretizations of Convection-Diffusion-Reaction Equations</em>. In: <em><b>Journal of Numerical Mathematics</b></em>, (October 2021), <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://doi.org/10.1515/jnma-2021-0123">10.1515/jnma-2021-0123</a></p></li>
-       <li> Abhinav Jha: <em>Hanging nodes for higher-order Lagrange finite elements</em>. In: <em><b>Examples and Counterexamples</b></em>, 1 (November 2021), 100025, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://doi.org/10.1016/j.exco.2021.100025">10.1016/j.exco.2021.100025</a></p></li>
-       <li> Abhinav Jha: <em>A residual based a posteriori error estimators for AFC schemes for convection-diffusion equations</em>. In: <em><b>Computers and Mathematics with Applications</b></em>, 97(1) (June 2021), Pages: 86–99, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1016/j.camwa.2021.05.031">10.1016/j.camwa.2021.05.031</a></p></li>
-       <li> Abhinav Jha,  Volker John: <em>On Basic Iteration Schemes for Nonlinear AFC Discretizations</em>. In: <em> <b>Boundary and Interior Layers, Computational and Asymptotic Methods BAIL 2018</b></em>, 135 (January 2020), Pages: 113–128, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1007/978-3-030-41800-7_7">10.1007/978-3-030-41800-7_7</a></p></li>
-       <li> Abhinav Jha,  Volker John: <em>A study of solvers for nonlinear AFC discretizations of convection–diffusion equations</em>. In: <em><b>Computers and Mathematics with Applications</b></em>, 78(9) (May 2019), Pages: 3117–3138, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1016/j.camwa.2019.04.020">10.1016/j.camwa.2019.04.020</a></p></li></ul>
+       <li> Abhinav Jha, Ondrej Partl, Naveed Ahmed, Dmitri Kuzmin: An Assessment of Solvers for Algebraically Stabilized Discretizations of Convection-Diffusion-Reaction Equations. In: <em>Journal of Numerical Mathematics</em>, (October 2021), <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://doi.org/10.1515/jnma-2021-0123">10.1515/jnma-2021-0123</a></p></li>
+       <li> Abhinav Jha: Hanging nodes for higher-order Lagrange finite elements. In: <em>Examples and Counterexamples</em>, 1 (November 2021), 100025, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://doi.org/10.1016/j.exco.2021.100025">10.1016/j.exco.2021.100025</a></p></li>
+       <li> Abhinav Jha: A residual based a posteriori error estimators for AFC schemes for convection-diffusion equations. In: <em>Computers and Mathematics with Applications</em>, 97(1) (June 2021), Pages: 86–99, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1016/j.camwa.2021.05.031">10.1016/j.camwa.2021.05.031</a></p></li>
+       <li> Abhinav Jha,  Volker John: On Basic Iteration Schemes for Nonlinear AFC Discretizations. In: <em> Boundary and Interior Layers, Computational and Asymptotic Methods BAIL 2018</em>, 135 (January 2020), Pages: 113–128, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1007/978-3-030-41800-7_7">10.1007/978-3-030-41800-7_7</a></p></li>
+       <li> Abhinav Jha,  Volker John: A study of solvers for nonlinear AFC discretizations of convection–diffusion equations. In: <em>Computers and Mathematics with Applications</em>, 78(9) (May 2019), Pages: 3117–3138, <span style="font-variant: caps;">DOI:</span>&nbsp;<a href="https://dx.doi.org/10.1016/j.camwa.2019.04.020">10.1016/j.camwa.2019.04.020</a></p></li></ul>
 
       </div>
     </section><!-- End Publications Section -->
@@ -163,12 +140,12 @@
           <h2>Preprints</h2>
           <p>These are the list of the preprints which are currently under review. </p>
         </div>
-        <li> Abhinav Jha, Michele Nottoli, Chaoyu Quan, Benjamin Stamm: <em>Computation of forces arising from the linear Poisson–Boltzmann method in the domain-decomposition paradigm</em>, (March 2022), <span style="font-variant: caps;"><b>arXiv</b>:</span>&nbsp;<a
+        <li> Abhinav Jha, Michele Nottoli, Chaoyu Quan, Benjamin Stamm: Computation of forces arising from the linear Poisson–Boltzmann method in the domain-decomposition paradigm (March 2022), <span style="font-variant: caps;">arXiv:</span>&nbsp;<a
              href="https://arxiv.org/pdf/2203.00552.pdf">2203.00552</a></p></li>
-        <li> Abhinav Jha, Volker John, Petr Knobloch: <em>Adaptive Grids in the Context of Algebraic Stabilizations for
-             Convection-Diffusion-Reaction Equations</em>, (January 2022), <span style="font-variant: caps;"><b>arXiv</b>:</span>&nbsp;<a
+        <li> Abhinav Jha, Volker John, Petr Knobloch: Adaptive Grids in the Context of Algebraic Stabilizations for
+             Convection-Diffusion-Reaction Equations. (January 2022), <span style="font-variant: caps;">arXiv:</span>&nbsp;<a
              href="https://arxiv.org/abs/2007.08405">2007.08405</a></p></li>
-        <li> Abhinav Jha, Naveed Ahmed: <em>Analysis of Flux Corrected Transport Schemes for Evolutionary Convection-Diffusion-Reaction Equations</em>, (March 2021), <span style="font-variant: caps;"><b>arXiv</b>:</span>&nbsp;<a href="https://arxiv.org/abs/2103.04776">2103.04776</a></p></li>
+        <li> Abhinav Jha, Naveed Ahmed: Analysis of Flux Corrected Transport Schemes for Evolutionary Convection-Diffusion-Reaction Equations. (March 2021), <span style="font-variant: caps;">arXiv:</span>&nbsp;<a href="https://arxiv.org/abs/2103.04776">2103.04776</a></p></li>
       </div>
     </section><!-- End Skills Section -->
 
@@ -259,7 +236,7 @@
 
         <div class="section-title">
           <h2>Workshops and Conferences </h2>
-          <p>List of workshops and conferences I attended. Also, the list of mini-symposium/conferences I co-organized.</p>
+          <p>List of workshops and conferences I attended. Also, the list of minisymposium/conferences I co-organised.</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -268,7 +245,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-work">Workshops</li>
               <li data-filter=".filter-conf">Conferences</li>
-              <li data-filter=".filter-orga">Organization</li>
+              <li data-filter=".filter-orga">Organisation</li>
             </ul>
           </div>
         </div>
@@ -330,7 +307,7 @@
         </div>
 
           <div class="col-lg-10 col-md-6  " data-aos="fade-up">
-            <h4 class="title"><a href="https://github.com/ACoM-Computational-Mathematics/ddX">ddX</a></h4>
+            <h4 class="title"><a href="https://acom-computational-mathematics.github.io/ddX/dev/">ddX</a></h4>
             <p class="description">Domain Decomposition Paradigm for Continuum Solvation Models</p>
             <li><b>Language</b>: Fortran</li>
             <li>Developed the Domain Decomposition Linear Poisson Boltzmann (ddLPB) sub-module</li>
@@ -361,18 +338,18 @@
         <div class="col-lg-12 col-md-6  " data-aos="fade-up">
           <h4 class="title">Mathematical Books</h4>
           <p class="description">Numerical Analysis</p>
-          <li><b>Numerical Analysis</b>, Richard L. Burden, J. Douglas Faires: <em>Covers all the sections of introductory Numerical Analysis</em></li>
-          <li><b>Numerical Solution of Partial Differential Equations by the Finite Element Method</b>, Claes Johnson: <em>Best introductory book for FEM</em></li>
-          <li><b>Theory and Practice of Finite Elements</b>, Alexandre Ern and Jean-Luc Guermond: <em>Covers advanced FEM</em></li>
-          <li><b>A Posteriori Error Estimation in Finite Element Analysis</b>, J. Tinsley Oden and Mark Ainsworth: <em>Covers important topics in Adaptive FEM</em></li>
+          <li><b>Numerical Analysis</b>, Richard L. Burden, J. Douglas Faires: Covers all the sections of introductory Numerical Analysis</li>
+          <li><b>Numerical Solution of Partial Differential Equations by the Finite Element Method</b>, Claes Johnson: Best introductory book for FEM</li>
+          <li><b>Theory and Practice of Finite Elements</b>, Alexandre Ern and Jean-Luc Guermond: Covers advanced FEM</li>
+          <li><b>A Posteriori Error Estimation in Finite Element Analysis</b>, J. Tinsley Oden and Mark Ainsworth: Covers important topics in Adaptive FEM</li>
           &nbsp
           <p class="description">Functional Analysis</p>
-          <li><b>Sobolev Spaces</b>, John J. F. Fournier and Robert A. Adams: <em>Covers Functional Analysis</em></li>
-          <li><b>Topics in Functional Analysis and Applications</b>, S. Kesavan: <em>Covers Functional Analysis required for FEM</em></li>
+          <li><b>Sobolev Spaces</b>, John J. F. Fournier and Robert A. Adams: Covers Functional Analysis</li>
+          <li><b>Topics in Functional Analysis and Applications</b>, S. Kesavan: Covers Functional Analysis required for FEM</li>
           &nbsp
           <p class="description">Computational Fluid Dynamics</p>
-          <li><b>Robust Numerical Methods for Singularly Perturbed Differential Equations: Convection-Diffusion-Reaction and Flow Problems</b>, Hans-Görg Roos, Lutz Tobiska, and Martin Stynes: <em>Essential for CDR Equations</em></li>
-          <li><b>Finite Element Methods for Incompressible Flow Problems</b>, Volker John: <em>Covers important topics in CFD analysis</em></li>
+          <li><b>Robust Numerical Methods for Singularly Perturbed Differential Equations: Convection-Diffusion-Reaction and Flow Problems</b>, Hans-Görg Roos, Lutz Tobiska, and Martin Stynes: Essential for CDR Equations</li>
+          <li><b>Finite Element Methods for Incompressible Flow Problems</b>, Volker John: Covers important topics in CFD analysis</li>
         </div>
         &nbsp
 
@@ -404,12 +381,6 @@
           <li><b>Kim's Convenience</b>, Netflix</li>
           <li><b>The Umbrella Academy</b>, Netflix</li>
           <li><b>The Boys</b>, Amazon Prime</li>
-        </div>
-        &nbsp
-        <div class="col-lg-12 col-md-6  " data-aos="fade-up">
-          <h4 class="title">General Interests</h4>
-          Apart from the aforementioned things, I am also a big football fan and support <a href="https://www.chelseafc.com/en"> Chelsea FC</a>. I am also a TCG player and enjoy <a href="https://magic.wizards.com/en"> Magic: The Gathering</a>
-          and <a href = "https://fabtcg.com/">Flesh and Blood</a>. I also like listening to podcasts and two of my all time favorite are: <a href="https://www.youtube.com/c/44Two">44Two</a> and <a href="https://www.youtube.com/c/VarunThakurOfficial">TISS</a>.
         </div>
 
 
