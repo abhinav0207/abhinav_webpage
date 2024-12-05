@@ -3,6 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Inline CSS -->
+  <style>
+    .info-box {
+      background-color: #ffffff;  /* White background */
+      padding: 30px;              /* Add padding for spacing */
+      border-radius: 10px;        /* Rounded corners */
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /* Light shadow for a clean look */
+    }
+
+    .info-box form {
+      margin: 0;
+    }
+  </style>
+
 
   <title>Dr. Abhinav Jha</title>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -13,6 +27,7 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -62,9 +77,11 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#publications" class="nav-link scrollto"><i class="bx bx-book"></i> <span>Publications</span></a></li>
+          <li><a href="#teaching" class="nav-link scrollto"><i class="bx bx-task"></i> <span>Teaching</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-slideshow"></i> <span>Workshops and Conferences</span></a></li>
           <li><a href="#software" class="nav-link scrollto"><i class="bx bx-code-curly"></i> <span>Software</span></a></li>
+          <li><a href="#advertisement" class="nav-link scrollto"><i class="bx bxs-megaphone"></i> <span>Advertisement</span></a></li>
           <li><a href="#miscellaneous" class="nav-link scrollto"><i class="bx bx-ghost"></i> <span>Miscellaneous</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -155,7 +172,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Publications Section ======= -->
-    <section id="publications" class="publications">
+    <section id="publications" class="publications section-bg">
       <div class="container">
         <div class="row" data-aos="fade-right">
 
@@ -228,7 +245,7 @@
     </section><!-- End Publications Section -->
 
     <!-- ======= Preprints Section ======= -->
-    <section id="preprints" class="preprints section-bg">
+    <section id="preprints" class="preprints">
       <div class="container">
           <div class="row" data-aos="fade-left">
 
@@ -237,7 +254,7 @@
           <p>These are the list of the preprints which are currently under review. </p>
         </div>
         <li>Thiago Carvalho Corso, Muhammad Hassan, Abhinav Jha, Benjamin Stamm:
-          <em>An \(\mathrm{L}^2\)-maximum principle for circular arcs on the disk</em>, (January 2024),
+          <em>Trace estimates for harmonic functions along circular arcs with applications to domain decomposition on overlapping disks</em>, (January 2024),
           <span style="font-variant: caps;"><b>arXiv</b>:</span>
           <a href="https://arxiv.org/pdf/2401.16344">2401.16344</a>
         </li>
@@ -249,7 +266,36 @@
         <!--<li> Abhinav Jha, Naveed Ahmed: <em>Analysis of Flux Corrected Transport Schemes for Evolutionary Convection-Diffusion-Reaction Equations</em>, (March 2021), <span style="font-variant: caps;"><b>arXiv</b>:</span>&nbsp;<a href="https://arxiv.org/abs/2103.04776">2103.04776</a></p></li>-->
        </div>
       </div>
-    </section><!-- End Skills Section -->
+    </section><!-- End Preprints Section -->
+
+    <!-- ======= Teaching Section ======= -->
+    <section id="teaching" class="teaching section-bg">
+      <div class="container">
+        <div class="row" data-aos="fade-right">
+          <!-- Section Title -->
+          <div class="section-title">
+            <h2>Teaching</h2>
+          </div>
+          <!-- Semester Details -->
+          <div class="col-lg-10 col-md-6  " data-aos="fade-up">
+            <h4 class="title">Winter Semester 2025, IIT Gandhinagar</h4>
+            <p class="description">These are the courses I am offering this semester:</p>
+
+          <!-- Courses List -->
+            <ul>
+              <li style="margin-left: 20px;"><b>MA637: Numerical Analysis and Computing</b></li>
+              <ul>
+                <li>Lecture Notes:</li>
+                <li>Assignments:</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Teaching Section -->
+
+
 
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
@@ -488,8 +534,46 @@
       </div>
     </section><!-- End Software Section -->
 
+    <!-- ======= Advertisement Section ======= -->
+    <section id="advertisement" class="advertisement section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Advertisement</h2>
+          <p>We have openings for both PostDoc and PhD positions. Details are provided below:</p>
+        </div>
+
+        <!-- PostDoc Positions Section -->
+        <div class="postdoc-section">
+          <h3>PostDoc Positions</h3>
+          <p>Currently, I have some PostDoc openings in my group. The topics are flexible, but the broad areas include:</p>
+          <ul class="topics">
+            <li><b>Computational Fluid Dynamics:</b> Efficient solvers and mixed formulation of the convection-diffusion equation.</li>
+            <li><b>Data Science:</b> Eigenvalue problems.</li>
+            <li><b>Computational Chemistry:</b> Iterative analysis for domain decomposition methods.</li>
+          </ul>
+          <p>
+            Kindly refer to this <a href="advertisement.pdf" target="_blank">advertisement</a> for more details. If you have any questions,
+            feel free to contact me via email. The deadline for applications is <strong>15th January 2025</strong>, but the position(s)
+            will remain open until filled.
+          </p>
+        </div>
+
+        <!-- PhD Positions Section -->
+        <div class="phd-section">
+          <h3>PhD Positions</h3>
+          <p>We also have an opening for a PhD position that will commence in the upcoming <strong>Summer Semester 2025</strong>.
+            However, the student needs to have their own funding through programs such as: CSIR/UGC JRF, GATE, NBHM, or INSPIRE.
+            If you wish to discuss possible research areas and scope, please send me an email.</p>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Advertisement Section -->
+
+
     <!-- ======= Recommendations Section ======= -->
-    <section id="miscellaneous" class="miscellaneous section-bg">
+    <section id="miscellaneous" class="miscellaneous">
       <div class="container">
 
         <div class="section-title">
@@ -541,7 +625,6 @@
           <li><b>Sex Education</b>, Netflix</li>
           <li><b>Stranger Things</b>, Netflix</li>
           <li><b>Kim's Convenience</b>, Netflix</li>
-          <li><b>The Umbrella Academy</b>, Netflix</li>
           <li><b>The Boys</b>, Amazon Prime</li>
         </div>
         &nbsp
@@ -556,67 +639,69 @@
     </section><!-- End Miscellaneous Section -->
 
     <!-- ======= Contact Section ======= -->
-   <section id="contact" class="contact">
-     <div class="container">
+    <section id="contact" class="contact section-bg">
+      <div class="container">
 
-       <div class="section-title">
-         <h2>Contact</h2>
-         <p>If you have any questions, please feel free to write to me. If I don't respond, don't feel guilty and send me a reminder.</p>
-       </div>
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>If you have any questions, please feel free to write to me. If I don't respond, don't feel guilty and send me a reminder.</p>
+        </div>
 
-       <div class="row" data-aos="fade-in">
+        <div class="row" data-aos="fade-in">
 
-         <div class="col-lg-5 d-flex align-items-stretch">
-           <div class="info">
-             <div class="address">
-               <i class="bi bi-geo-alt"></i>
-               <h4>Location:</h4>
-               <p>Indian Institute of Technology, Gandhinagar, Gujarat, India</p>
-             </div>
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Indian Institute of Technology, Gandhinagar, Gujarat, India</p>
+              </div>
 
-             <div class="email">
-               <i class="bi bi-envelope"></i>
-               <h4>Email:</h4>
-               <p>abhinav.jha@iitgn.ac.in</p>
-             </div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>abhinav.jha@iitgn.ac.in</p>
+              </div>
 
-           </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 123 456 7890</p>
+              </div>
+            </div>
+          </div>
 
-         </div>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="info-box"> <!-- Added a wrapper for the form with a white box -->
+              <form action="https://formspree.io/f/xldevrqe" method="POST">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
 
-         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-           <form action="contact.php" method="post" role="form" class="php-email-form">
-             <div class="row">
-               <div class="form-group col-md-6">
-                 <label for="name">Your Name</label>
-                 <input type="text" name="name" class="form-control" id="name" required>
-               </div>
-               <div class="form-group col-md-6">
-                 <label for="email">Your Email</label>
-                 <input type="email" class="form-control" name="email" id="email" required>
-               </div>
-             </div>
-             <div class="form-group">
-               <label for="subject">Subject</label>
-               <input type="text" class="form-control" name="subject" id="subject" required>
-             </div>
-             <div class="form-group">
-               <label for="message">Message</label>
-               <textarea class="form-control" name="message" rows="10" required></textarea>
-             </div>
-             <div class="my-3">
-               <div class="loading">Loading</div>
-               <div class="error-message"></div>
-               <div class="sent-message">Your message has been sent. Thank you!</div>
-             </div>
-             <div class="text-center"><button type="submit">Send Message</button></div>
-           </form>
-         </div>
+        </div>
 
-       </div>
+      </div>
+    </section><!-- End Contact Section -->
 
-     </div>
-   </section><!-- End Contact Section -->
 
    <!-- ======= Footer ======= -->
    <footer id="footer">
